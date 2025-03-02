@@ -1,3 +1,16 @@
-nav li{
-    display: inline;
-}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    padding: 0;
+  }
+
+nav {
+    flex-grow: 1;
+  }
